@@ -76,7 +76,7 @@ export class Register extends React.Component {
   };
 
   validateEmail = (email) => {
-    // Expresión regular para validar el formato del correo electrónico
+    // Expresión regular para validar el formato del email
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
