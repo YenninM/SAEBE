@@ -25,7 +25,7 @@ function App() {
           </ul>
         </nav>
         <Routes>
-          <Route path="/inicio" element={<Inicio/>} />
+          <Route path="/" element={<Inicio/>} />
           <Route path="/acerca" element={<Acerca />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/iniciar-sesion" element={<Login />} />

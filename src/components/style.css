@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
+
+
 .App {
   text-align: center;
   display: flex;
@@ -12,6 +14,7 @@
 
 /*Login Main Container*/
 .login {
+  padding-top: 90px;
   width: 27em;
   height: 40em;
   /*min-height: 44em;*/
@@ -105,6 +108,7 @@ img {
 }
 
 .form-group {
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
