@@ -3,6 +3,7 @@ import aboutImage from "../assets/about-image.jpg"; // Reemplaza con la ruta cor
 
 const Acerca = () => {
   return (
+    <div class="contenedor">
     <div className="about-page">
       <h1 className="about-title">Acerca de Nosotros</h1>
       <p className="about-description">
@@ -20,6 +21,7 @@ const Acerca = () => {
       Somos una entidad encargada de recuperación de activos y venta de bienes de los fondos y fideicomisos en extinción, por disposición del gobernador del estado, cuando las mismas han dejado de cumplir con su objetivo, orientando así a una mejora en la Administración Pública Estatal.
       <br/>Esta recuperación se destinará para inversiones en apoyo a proyectos productivos conforme a los programas institucionales aprobados por el Gobierno Estatal.
       </p>
+    </div>
     </div>
   );
 };

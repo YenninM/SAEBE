@@ -10,14 +10,19 @@
   font-family: "Open Sans", sans-serif;
 }
 
-
+.contenedor{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
 
 /*Login Main Container*/
 .login {
-  padding-top: 90px;
+  padding-top: 85px;
   width: 27em;
   height: 40em;
-  /*min-height: 44em;*/
+  
+  /*height: auto;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +39,7 @@
     border-radius: 4px;
     position: relative;
     z-index: 99;
-    width: 100%;
+    width: 95%;
     height: 100%;
     z-index: 99;
     padding: 12px 10px;

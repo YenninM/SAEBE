@@ -1,3 +1,16 @@
+@media (max-width: 768px) {
+  /* Estilos para dispositivos móviles */
+  /* Ajusta tamaños de fuente, márgenes, etc. */
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  /* Estilos para tabletas */
+}
+
+@media (min-width: 1201px) {
+  /* Estilos para pantallas de escritorio */
+}
+
   .app {
     text-align: center;
   }

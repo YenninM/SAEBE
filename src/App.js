@@ -9,6 +9,8 @@ import Login from './components/Login';
 
 function App() {
   return (
+    
+    <div class="contenedor">
     <Router>
       <div className="App">
         <nav>
@@ -33,6 +35,7 @@ function App() {
         </Routes>
       </div>
     </Router>
+    </div>
   );
 }
 
