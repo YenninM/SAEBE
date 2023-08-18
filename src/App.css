@@ -17,8 +17,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
-  padding: 10px;
+  background-color: #ffffff;;
+  padding: 10px 20px; /* Ajusta el padding */
 }
 
 .nav-list {
@@ -31,13 +31,11 @@ nav {
 }
 
 .nav-logo {
-  margin-right: 20px;
-  margin-left: 20px; /* Ajusta el margen izquierdo negativo para mover el logo a la derecha */
+  margin: 1px 20px; /* Ajusta los márgenes */
 }
 
 .nav-link {
-  margin: 0 5px;
-  display: block;
+  margin: 5px 0; /* Ajusta los márgenes */
 }
 .page-content {
   margin-top: 100px; /* Ajusta el valor según la altura de tu barra de navegación */

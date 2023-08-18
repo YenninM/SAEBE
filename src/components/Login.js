@@ -13,13 +13,10 @@ class App extends React.Component {
 
   componentDidMount() {
     //Add .right by default
-    <div class="contenedor">
     this.rightSide.classList.add("right");
-    </div>
   }
 
   changeState() {
-    
     const { isLogginActive } = this.state;
 
     if (isLogginActive) {
@@ -37,7 +34,6 @@ class App extends React.Component {
     const current = isLogginActive ? "Registrarse" : "Iniciar Sesión";
     const currentActive = isLogginActive ? "Iniciar Sesión" : "Registrarse";
     return (
-      <div class="contenedor">
       <div className="App">
         <div className="login">
           <div className="container" ref={ref => (this.container = ref)}>
@@ -56,14 +52,12 @@ class App extends React.Component {
           />
         </div>
       </div>
-      </div>
     );
   }
 }
 
 const RightSide = props => {
   return (
-    <div class="contenedor">
     <div
       className="right-side"
       ref={props.containerRef}
@@ -72,7 +66,6 @@ const RightSide = props => {
       <div className="inner-container">
         <div className="text">{props.current}</div>
       </div>
-    </div>
     </div>
   );
 };
